@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar::before{
+    content: "";
+    background-color: black; 
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+   
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding:34px;
+    height: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+    padding: 34px ;
+}
+#services{
+    margin: 34px;
+    display: flex;
+    background-color: white;
+}
+#h-primary{
+    text-align: center;
+}
+#services .box{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+#services .box:hover{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+#services .box p{
+    text-align: center;
+}
+#services .box img{
+    display: block;
+    margin: auto;
+}
+#services .box h2{
+    text-align: center;
+}
+#text{
+    text-align: center;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 470px;
+    justify-items: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background-image: url("background.jpg.jpg");
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    color: white;
+     text-align: center;
+     height: 100px;
+     margin-top: 10vh;
+}
+
+#home p{
+    color: rgb(0, 0, 0);
+     font-size: 1.2rem;
+     text-align: center;
+     height: 57px;
+
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12pxss;
+    text-align: center;
+    height: 75px;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12pxss;
+}
+.center{
+    text-align: center;
+}
+
+.btn {
+    color: red;
+    background-color: white;
+    padding: 6px 20px;
+    font-style: oblique;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.image{
+    height:80px;
+    width: 80px;
+    border-radius: 50px;
+    border-color: blue;
+    border: solid;
+}
+#sayan{
+    color: white;
+    font-size: 50px;
+     margin-left: -56px;
+}

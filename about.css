@@ -1,0 +1,21 @@
+body{
+    background-image: url("about.jpg.jpg");
+    background-size: cover;
+    opacity: 0.4px;
+}
+#sayan{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+}
+p{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0.5rem;
+    border-color: white;
+    color: white;
+    background-color: rgba(134, 32, 32, 0.431);
+}
